@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		D26448A6242578AE00F46DF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26448A5242578AE00F46DF2 /* AppDelegate.swift */; };
 		D26448A8242578AE00F46DF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26448A7242578AE00F46DF2 /* SceneDelegate.swift */; };
-		D26448AA242578AE00F46DF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26448A9242578AE00F46DF2 /* ViewController.swift */; };
 		D26448AD242578AE00F46DF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26448AB242578AE00F46DF2 /* Main.storyboard */; };
 		D26448AF242578B000F46DF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D26448AE242578B000F46DF2 /* Assets.xcassets */; };
 		D26448B2242578B000F46DF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26448B0242578B000F46DF2 /* LaunchScreen.storyboard */; };
+		D26448BA2425798800F46DF2 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26448B92425798800F46DF2 /* MainTableViewController.swift */; };
+		D26448C024257ABC00F46DF2 /* URLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26448BF24257ABC00F46DF2 /* URLSession.swift */; };
+		D26448C224257B3200F46DF2 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D26448C124257B3200F46DF2 /* TableViewCell.xib */; };
+		D26448C424257B5100F46DF2 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26448C324257B5100F46DF2 /* TableViewCell.swift */; };
+		D26448C624257BD700F46DF2 /* ToDecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26448C524257BD700F46DF2 /* ToDecode.swift */; };
+		D26448C824257BFB00F46DF2 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26448C724257BFB00F46DF2 /* APIClient.swift */; };
+		D26448CA24257C2600F46DF2 /* Companies.json in Resources */ = {isa = PBXBuildFile; fileRef = D26448C924257C2600F46DF2 /* Companies.json */; };
+		D26448D324257EFA00F46DF2 /* RandomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26448D224257EFA00F46DF2 /* RandomColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D26448A2242578AE00F46DF2 /* Table View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Table View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D26448A5242578AE00F46DF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D26448A7242578AE00F46DF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D26448A9242578AE00F46DF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D26448AC242578AE00F46DF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D26448AE242578B000F46DF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D26448B1242578B000F46DF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D26448B3242578B000F46DF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D26448B92425798800F46DF2 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		D26448BF24257ABC00F46DF2 /* URLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSession.swift; sourceTree = "<group>"; };
+		D26448C124257B3200F46DF2 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		D26448C324257B5100F46DF2 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		D26448C524257BD700F46DF2 /* ToDecode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDecode.swift; sourceTree = "<group>"; };
+		D26448C724257BFB00F46DF2 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		D26448C924257C2600F46DF2 /* Companies.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Companies.json; sourceTree = "<group>"; };
+		D26448D224257EFA00F46DF2 /* RandomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,62 @@
 		D26448A4242578AE00F46DF2 /* Table View */ = {
 			isa = PBXGroup;
 			children = (
-				D26448A5242578AE00F46DF2 /* AppDelegate.swift */,
-				D26448A7242578AE00F46DF2 /* SceneDelegate.swift */,
-				D26448A9242578AE00F46DF2 /* ViewController.swift */,
-				D26448AB242578AE00F46DF2 /* Main.storyboard */,
-				D26448AE242578B000F46DF2 /* Assets.xcassets */,
-				D26448B0242578B000F46DF2 /* LaunchScreen.storyboard */,
+				D26448CC24257D4A00F46DF2 /* Useless */,
+				D26448CB24257D3E00F46DF2 /* Useful */,
 				D26448B3242578B000F46DF2 /* Info.plist */,
 			);
 			path = "Table View";
+			sourceTree = "<group>";
+		};
+		D26448CB24257D3E00F46DF2 /* Useful */ = {
+			isa = PBXGroup;
+			children = (
+				D26448CF24257DC300F46DF2 /* Client */,
+				D26448CE24257DB600F46DF2 /* Model */,
+				D26448CD24257D7900F46DF2 /* Screen */,
+				D26448BF24257ABC00F46DF2 /* URLSession.swift */,
+				D26448D224257EFA00F46DF2 /* RandomColor.swift */,
+			);
+			path = Useful;
+			sourceTree = "<group>";
+		};
+		D26448CC24257D4A00F46DF2 /* Useless */ = {
+			isa = PBXGroup;
+			children = (
+				D26448A5242578AE00F46DF2 /* AppDelegate.swift */,
+				D26448A7242578AE00F46DF2 /* SceneDelegate.swift */,
+				D26448AB242578AE00F46DF2 /* Main.storyboard */,
+				D26448AE242578B000F46DF2 /* Assets.xcassets */,
+				D26448B0242578B000F46DF2 /* LaunchScreen.storyboard */,
+			);
+			path = Useless;
+			sourceTree = "<group>";
+		};
+		D26448CD24257D7900F46DF2 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				D26448B92425798800F46DF2 /* MainTableViewController.swift */,
+				D26448C324257B5100F46DF2 /* TableViewCell.swift */,
+				D26448C124257B3200F46DF2 /* TableViewCell.xib */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		D26448CE24257DB600F46DF2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D26448C524257BD700F46DF2 /* ToDecode.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D26448CF24257DC300F46DF2 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				D26448C924257C2600F46DF2 /* Companies.json */,
+				D26448C724257BFB00F46DF2 /* APIClient.swift */,
+			);
+			path = Client;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +187,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D26448B2242578B000F46DF2 /* LaunchScreen.storyboard in Resources */,
+				D26448C224257B3200F46DF2 /* TableViewCell.xib in Resources */,
+				D26448CA24257C2600F46DF2 /* Companies.json in Resources */,
 				D26448AF242578B000F46DF2 /* Assets.xcassets in Resources */,
 				D26448AD242578AE00F46DF2 /* Main.storyboard in Resources */,
 			);
@@ -138,8 +201,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D26448AA242578AE00F46DF2 /* ViewController.swift in Sources */,
 				D26448A6242578AE00F46DF2 /* AppDelegate.swift in Sources */,
+				D26448C024257ABC00F46DF2 /* URLSession.swift in Sources */,
+				D26448C824257BFB00F46DF2 /* APIClient.swift in Sources */,
+				D26448C624257BD700F46DF2 /* ToDecode.swift in Sources */,
+				D26448D324257EFA00F46DF2 /* RandomColor.swift in Sources */,
+				D26448C424257B5100F46DF2 /* TableViewCell.swift in Sources */,
+				D26448BA2425798800F46DF2 /* MainTableViewController.swift in Sources */,
 				D26448A8242578AE00F46DF2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
